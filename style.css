@@ -10,3 +10,13 @@ body{
 	font-family: 'Segoe U', Tahoma,Geneva, Verdana, sans-serif;
 	padding: 1em;
 }
+.container{
+  max-width:360px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1em;
+	}
+ul{
+	list-style: none;
+	padding:0;
+}
