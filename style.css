@@ -33,3 +33,10 @@ ul{
 .wrapper >*{
 	padding: 1em;
 }
+.Company{
+	background: #c9e6ff;
+}
+.Company h3, .Company ul{
+	text-align: center;
+	margin: 0 0 1rem 0;
+}
