@@ -27,3 +27,9 @@ ul{
 .Media span{
 	color: #fff;
 }
+.wrapper{
+ box-shadow: 0 0 20px 0 rbga(72,94,116,0.7);
+}
+.wrapper >*{
+	padding: 1em;
+}
