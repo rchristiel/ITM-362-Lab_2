@@ -1,1 +1,12 @@
+/* box-sizing property allows me to include the padding and border in the element's total width and height.*/
+*{
+  box-sizing: border-box;
+}
 
+body{
+	backgrond:#92bde7
+	color:#485e74;
+	line-height:1.6;
+	font-family: 'Segoe U', Tahoma,Geneva, Verdana, sans-serif;
+	padding: 1em;
+}
