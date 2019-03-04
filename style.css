@@ -40,3 +40,19 @@ ul{
 	text-align: center;
 	margin: 0 0 1rem 0;
 }
+.contactInfo{
+	background: #f9feff;
+}
+
+/*form styles*/
+.contactInfo form{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:20px;
+}
+.contactInfo from label{
+	display:block;
+}
+.contactInfo form p{
+	margin:0;
+}
