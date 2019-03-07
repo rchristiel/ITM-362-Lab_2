@@ -90,8 +90,9 @@ ul{
 	color: #fff;
 }
 .wrapper{
- box-shadow: 0 0 20px 0 rbga(72,94,116,0.7);
-}
+-webkit-box-shadow: inset -16px -20px 48px -7px rgba(11,212,182,0.74);
+-moz-box-shadow: inset -16px -20px 48px -7px rgba(11,212,182,0.74);
+box-shadow: inset -16px -20px 48px -7px rgba(11,212,182,0.74);}
 .wrapper >*{
 	padding: 2em;
 }
