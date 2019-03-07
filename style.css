@@ -16,10 +16,7 @@ body{
 	margin-right:auto;
 	padding:1em;
 	}
-ul{
-	list-style: none;
-	padding:0;
-}
+
 .Media{
 	text-align: center;
 	line-height:2.0;
@@ -29,12 +26,14 @@ ul{
 .Media span{
 	color: #fff;
 }
-.wrapper{
- box-shadow: 0 0 20px 0 rbga(72,94,116,0.7);
+
+.wrapper {
+box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
 }
-.wrapper >*{
-	padding: 1em;
+.wrapper > * {
+padding : 2em;
 }
+
 
 .Company{
 	background: #c9e6ff;
@@ -94,12 +93,12 @@ ul{
 .Media span{
 	color: #fff;
 }
-.wrapper{
--webkit-box-shadow: inset -16px -20px 48px -7px rgba(11,212,182,0.74);
--moz-box-shadow: inset -16px -20px 48px -7px rgba(11,212,182,0.74);
-box-shadow: inset -16px -20px 48px -7px rgba(11,212,182,0.74);}
-.wrapper >*{
-	padding: 2em;
+
+.wrapper {
+box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
+}
+.wrapper > * {
+padding : 2em;
 }
 
 .Company{
