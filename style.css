@@ -85,72 +85,59 @@ body{
   ul{
 	list-style: none;
 	padding:0;
- }
+	}
   .Media{
 	text-align: center;
 	line-height:3.5;
-}
+	}
 
-  .Media span{
-	color: #fff;
-}
+	  .Media span{
+		color: #fff;
+	}
 
-  .wrapper {
-	box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
-}
-  .wrapper > * {
-	padding : 2em;
-}
+	  .wrapper {
+		box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
+	}
+	  .wrapper > * {
+		padding : 2em;
+	}
 
-.Company{
-	background: #c9e6ff;
-}
-.Company h3, .Company ul{
-	text-align: left;
-	margin: 0 0 1rem 0;
-}
-.contactInfo{
-	background: #e6f9ff;
-}
+	.Company{
+		background: #c9e6ff;
+	}
+	.Company h3, .Company ul{
+		text-align: left;
+		margin: 0 0 1rem 0;
+	}
+	.contactInfo{
+		background: #e6f9ff;
+ }
 
-/*form styles*/
-.contactInfo form{
+  /*form styles*/
+  .contactInfo form{
 	display: grid;
 	grid-template-columns: 2fr 2fr;
 	grid-gap:25px;
-}
-.contactInfo from label{
+ }
+  .contactInfo from label{
 	display:block;
-}
-.contactInfo form p{
+ }
+  .contactInfo form p{
 	margin:0;
-}
-.contactInfo form .full{
+ }
+  .contactInfo form .full{
 	grid-column: 1/2;
-}
-.contactInfo form button, .contactInfo form input, .contactInfo form textarea{
+ }
+  .contactInfo form button, .contactInfo form input, .contactInfo form textarea{
 	width:50%;
 	padding: 2em;
 	}
-.contactInfo form button{
+  .contactInfo form button{
 	background: #c9e6ff;
 	
-}
+ }
 /* Set the background color of body to tan */
-body {
-  background-color: tan;
-}
-
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (min-width: 360px) {
   body {
-    background-color: blue;
-  }
-}
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 992px) {
-  body {
-    background-color: olive;
-  }
+  	background-color: tan;
+ } 
 }
