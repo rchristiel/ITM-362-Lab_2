@@ -36,6 +36,8 @@ ul{
 
 .Company{
 	background: #c9e6ff;
+	text-align: center;
+
 }
 .Company h3, .Company ul{
 	text-align: center;
@@ -73,7 +75,7 @@ ul{
 @media and (max-width: 992px){
 
 	.container{
-        max-width:992px;
+        max-width:600px;
 	margin-left:auto;
 	margin-right:auto;
 	padding:2em;
