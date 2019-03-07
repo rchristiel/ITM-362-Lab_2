@@ -28,10 +28,12 @@ body{
 }
 
 .wrapper {
-box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
+	box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
+	background: pink;
+	
 }
 .wrapper > * {
-padding : 2em;
+	padding : 2em;
 }
 
 
