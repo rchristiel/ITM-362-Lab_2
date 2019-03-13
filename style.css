@@ -41,9 +41,13 @@ body{
 	background: #c9e6ff;
 	text-align: center;
 }
-.Company h3, .Company ul{
+.Company h2,{
 	text-align: center;
 	margin: 0 0 1rem 0;
+}
+ .Company ul li{
+	 text-align:center;
+	 
 }
 .contactInfo{
 	background: #e6f9ff;
