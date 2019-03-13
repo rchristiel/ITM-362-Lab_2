@@ -16,6 +16,9 @@ margin-left : auto;
 margin-right : auto;
 padding : 1em;
 }
+input {
+  width: 100%;
+}
 .Media {
 text-align : center;
 line-height : 2.0;
