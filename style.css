@@ -1,147 +1,127 @@
-html >*{
-	text-align:center;
+
+html > * {
+text-align : center;
 }
-
-body{
-	background:#92bde7;
-	color:#485e74;
-	line-height:1.6;
-	font-family: 'Segoe U', Tahoma,Geneva, Verdana, sans-serif;
-	padding: 1em;
+body {
+background : #92bde7;
+color : #485e74;
+line-height : 1.6;
+font-family : 'Segoe U', Tahoma, Geneva, Verdana, sans-serif;
+padding : 1em;
 }
-@media only screen and (min-width: 480px){
-.container{
-  	max-width:360px;
-	margin-left:auto;
-	margin-right:auto;
-	padding:1em;
-	}
-
-.Media{
-	text-align: center;
-	line-height:2.0;
-
+@media only screen and (min-width:480px) {
+.container {
+max-width : 360px;
+margin-left : auto;
+margin-right : auto;
+padding : 1em;
 }
-
-.Media span{
-	color: #fff;
+.Media {
+text-align : center;
+line-height : 2.0;
 }
-
+.Media span {
+color : #fff;
+}
 .wrapper {
-	box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
-	background: pink;
-	
+box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
+background : pink;
 }
 .wrapper > * {
-	padding : 2em;
+padding : 2em;
 }
-
-
-.Company{
-	background: #c9e6ff;
-	text-align: center;
+.Company {
+background : #c9e6ff;
+text-align : center;
 }
-.Company h2{
-	text-align: center;
-	margin: 0 0 1rem 0;
+.Company h2 {
+text-align : center;
+margin : 0 0 1rem 0;
 }
- .Company ul li{
-	 text-align:center;
-	 
+.Company ul li {
+text-align : center;
 }
-.contactInfo{
-	background: #e6f9ff;
+.contactInfo {
+background : #e6f9ff;
 }
-
-/*form styles*/
-.contactInfo form{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap:20px;
+.contactInfo form {
+display : grid;
+grid-template-columns : 1fr 1fr;
+gap : 20px;
 }
-.contactInfo from label{
-	display:block;
+.contactInfo from label {
+display : block;
 }
-.contactInfo form p{
-	margin:0;
+.contactInfo form p {
+margin : 0;
 }
-.contactInfo form .full{
-	grid-column: 1/3;
+.contactInfo form .full {
+grid-column : 1 / 3;
 }
-.contactInfo form button, .contactInfo form input, .contactInfo form textarea{
-	width:100%;
-	padding: 1em;
-	}
-.contactInfo form button{
-	background: #c9e6ff;
-	
+.contactInfo form button, .contactInfo form input, .contactInfo form textarea {
+width : 100%;
+padding : 1em;
 }
-
-/*media querrie for larger screen*/
-@media only screen and (max-width: 992px){
-
-  .container{
-        max-width:600px;
-	margin-left:auto;
-	margin-right:auto;
-	padding:2em;
-	}
-  ul{
-	list-style: none;
-	padding:0;
-	}
-  .Media{
-	text-align: center;
-	line-height:3.5;
-	}
-
-	  .Media span{
-		color: #fff;
-	}
-
-	  .wrapper {
-		box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
-	}
-	  .wrapper > * {
-		padding : 2em;
-	}
-
-	.Company{
-		background: #c9e6ff;
-	}
-	.Company h3, .Company ul{
-		text-align: left;
-		margin: 0 0 1rem 0;
-	}
-	.contactInfo{
-		background: #e6f9ff;
- }
-
-  /*form styles*/
-  .contactInfo form{
-	display: grid;
-	grid-template-columns: 2fr 2fr;
-	grid-gap:25px;
- }
-  .contactInfo from label{
-	display:block;
- }
-  .contactInfo form p{
-	margin:0;
- }
-  .contactInfo form .full{
-	grid-column: 1/2;
- }
-  .contactInfo form button, .contactInfo form input, .contactInfo form textarea{
-	width:50%;
-	padding: 2em;
-	}
-  .contactInfo form button{
-	background: #c9e6ff;
-	
- }
-/* Set the background color of body to tan */
-  body {
-  	background-color: tan;
-  } 
+.contactInfo form button {
+background : #c9e6ff;
 }
+}
+@media only screen and (max-width:992px) {
+.container {
+max-width : 600px;
+margin-left : auto;
+margin-right : auto;
+padding : 2em;
+}
+ul {
+list-style : none;
+padding : 0;
+}
+.Media {
+text-align : center;
+line-height : 3.5;
+}
+.Media span {
+color : #fff;
+}
+.wrapper {
+box-shadow : -16px -20px 48px -7px rgb(11 212 182 / 0.74) inset;
+}
+.wrapper > * {
+padding : 2em;
+}
+.Company {
+background : #c9e6ff;
+}
+.Company h3, .Company ul {
+text-align : left;
+margin : 0 0 1rem 0;
+}
+.contactInfo {
+background : #e6f9ff;
+}
+.contactInfo form {
+display : grid;
+grid-template-columns : 2fr 2fr;
+gap : 25px;
+}
+.contactInfo from label {
+display : block;
+}
+.contactInfo form p {
+margin : 0;
+}
+.contactInfo form .full {
+grid-column : 1 / 2;
+}
+.contactInfo form button, .contactInfo form input, .contactInfo form textarea {
+width : 50%;
+padding : 2em;
+}
+.contactInfo form button {
+background : #c9e6ff;
+}
+body {
+background-color : tan;
+}
+} 
